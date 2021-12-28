@@ -56,6 +56,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BLL\HocSinhBL.cs" />
+    <Compile Include="BLL\LopHocBL.cs" />
+    <Compile Include="BLL\NamHocBL.cs" />
     <Compile Include="DAL\DiemThi.cs" />
     <Compile Include="DAL\HocBaModel.cs" />
     <Compile Include="DAL\HocSinh.cs" />
@@ -71,6 +73,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModel\HocSinhVM.cs" />
     <EmbeddedResource Include="frmSinhVien.resx">
       <DependentUpon>frmSinhVien.cs</DependentUpon>
     </EmbeddedResource>

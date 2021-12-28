@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using QlyHocBa.ViewModel;
+using QlyHocBa.DAL;
 
 namespace QlyHocBa.BLL
 {
@@ -10,11 +12,18 @@ namespace QlyHocBa.BLL
     {
         public HocSinhBL() { }
 
-        public long ID { get; set; }
-        public string Name { get; set; }
-        public DateTime NgaySinh { get; set; }
-        public enum GT{Nam = 1, NU = 0}
-        public GT GioiTinh { get; set; }
-        public float DTB { get; set; }
+        public List<HocSinhVM> GetHocSinhVMs(string namhoc, int hocky, int lopId)
+        {
+            HocBaModel model = new HocBaModel();
+            var list = model.HocSinhs.Select(e => new HocSinhVM
+            {
+                ID = e.ID,
+                HoTen = e.HoTen,
+                GioiTinh = e.GioiTinh ? HocSinhVM.GT.Nam: HocSinhVM.GT.NU,
+                NgaySinh = e.NgaySinh,
+                DTB = 0
+            }).ToList();
+            return list;
+        }
     }
 }
