@@ -1,0 +1,15 @@
+C:\Users\trung\source\repos\QlyHocBa\QlyHocBa\bin\Debug\QlyHocBa.exe.config
+C:\Users\trung\source\repos\QlyHocBa\QlyHocBa\bin\Debug\QlyHocBa.exe
+C:\Users\trung\source\repos\QlyHocBa\QlyHocBa\bin\Debug\QlyHocBa.pdb
+C:\Users\trung\source\repos\QlyHocBa\QlyHocBa\bin\Debug\EntityFramework.dll
+C:\Users\trung\source\repos\QlyHocBa\QlyHocBa\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\trung\source\repos\QlyHocBa\QlyHocBa\bin\Debug\EntityFramework.xml
+C:\Users\trung\source\repos\QlyHocBa\QlyHocBa\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\trung\source\repos\QlyHocBa\QlyHocBa\obj\Debug\QlyHocBa.csproj.AssemblyReference.cache
+C:\Users\trung\source\repos\QlyHocBa\QlyHocBa\obj\Debug\QlyHocBa.frmSinhVien.resources
+C:\Users\trung\source\repos\QlyHocBa\QlyHocBa\obj\Debug\QlyHocBa.Properties.Resources.resources
+C:\Users\trung\source\repos\QlyHocBa\QlyHocBa\obj\Debug\QlyHocBa.csproj.GenerateResource.cache
+C:\Users\trung\source\repos\QlyHocBa\QlyHocBa\obj\Debug\QlyHocBa.csproj.CoreCompileInputs.cache
+C:\Users\trung\source\repos\QlyHocBa\QlyHocBa\obj\Debug\QlyHocBa.csproj.CopyComplete
+C:\Users\trung\source\repos\QlyHocBa\QlyHocBa\obj\Debug\QlyHocBa.exe
+C:\Users\trung\source\repos\QlyHocBa\QlyHocBa\obj\Debug\QlyHocBa.pdb
