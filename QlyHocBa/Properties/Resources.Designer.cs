@@ -73,6 +73,16 @@ namespace QlyHocBa.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap edit_26px {
+            get {
+                object obj = ResourceManager.GetObject("edit_26px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap edit_32__2_ {
             get {
                 object obj = ResourceManager.GetObject("edit-32 (2)", resourceCulture);

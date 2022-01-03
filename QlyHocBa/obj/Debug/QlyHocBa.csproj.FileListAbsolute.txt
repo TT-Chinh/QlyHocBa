@@ -13,3 +13,5 @@ C:\Users\trung\source\repos\QlyHocBa\QlyHocBa\obj\Debug\QlyHocBa.csproj.CoreComp
 C:\Users\trung\source\repos\QlyHocBa\QlyHocBa\obj\Debug\QlyHocBa.csproj.CopyComplete
 C:\Users\trung\source\repos\QlyHocBa\QlyHocBa\obj\Debug\QlyHocBa.exe
 C:\Users\trung\source\repos\QlyHocBa\QlyHocBa\obj\Debug\QlyHocBa.pdb
+C:\Users\trung\source\repos\QlyHocBa\QlyHocBa\obj\Debug\QlyHocBa.frmHocBa.resources
+C:\Users\trung\source\repos\QlyHocBa\QlyHocBa\obj\Debug\QlyHocBa.frmDiemThi.resources

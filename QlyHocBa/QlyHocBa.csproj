@@ -55,7 +55,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLL\DiemThiBL.cs" />
     <Compile Include="BLL\HocSinhBL.cs" />
+    <Compile Include="BLL\KetQuaBL.cs" />
     <Compile Include="BLL\LopHocBL.cs" />
     <Compile Include="BLL\NamHocBL.cs" />
     <Compile Include="DAL\DiemThi.cs" />
@@ -65,6 +67,18 @@
     <Compile Include="DAL\LopHoc.cs" />
     <Compile Include="DAL\MonHoc.cs" />
     <Compile Include="DAL\NamHoc.cs" />
+    <Compile Include="frmDiemThi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDiemThi.Designer.cs">
+      <DependentUpon>frmDiemThi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHocBa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHocBa.Designer.cs">
+      <DependentUpon>frmHocBa.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmSinhVien.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -73,7 +87,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModel\DiemThiVM.cs" />
     <Compile Include="ViewModel\HocSinhVM.cs" />
+    <EmbeddedResource Include="frmDiemThi.resx">
+      <DependentUpon>frmDiemThi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHocBa.resx">
+      <DependentUpon>frmHocBa.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmSinhVien.resx">
       <DependentUpon>frmSinhVien.cs</DependentUpon>
     </EmbeddedResource>
@@ -89,6 +110,8 @@
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\DataSources\QlyHocBa.BLL.HocSinhBL.datasource" />
+    <None Include="Properties\DataSources\QlyHocBa.ViewModel.DiemThiVM.datasource" />
+    <None Include="Properties\DataSources\QlyHocBa.ViewModel.HocSinhVM.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -102,7 +125,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\edit_26px.png" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="Resources\add_32px.png" />
   </ItemGroup>
